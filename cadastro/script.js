@@ -33,4 +33,3 @@ function cadastrar(event) {
   }
   
   document.getElementById('cadastroForm').addEventListener('submit', cadastrar);
-

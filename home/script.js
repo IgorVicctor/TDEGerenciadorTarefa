@@ -9,7 +9,7 @@ function sair(){
   firebase.auth().signOut().then(() => {
     const shouldRemove = confirm("Você deseja sair?")
     if (shouldRemove) {
-      window.location.href="../index.html";
+      window.location.href="../login/index.html";
     }
   }).catch(() => {
     alert('Erro ao sair.');

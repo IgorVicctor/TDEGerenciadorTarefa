@@ -14,7 +14,7 @@ function handleFormSubmit(event) {
     const password = document.getElementById('password').value;
 
     firebase.auth().signInWithEmailAndPassword(email, password).then(response =>{
-        window.location.href = "../home/index.html";
+        window.location.href = "home/index.html";
     }).catch(error => {
         alert("Usuário não encontrado!");
     });
